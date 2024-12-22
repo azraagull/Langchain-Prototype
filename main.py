@@ -34,12 +34,6 @@ def main():
 
     questions = load_questions("data/questions.json")
 
-    # Sistem Mesajı
-    system_message = {
-        "role": "system",
-        "content": "Sen bir öğrenci destek platformu için yapılan sohbet botusun. Sadece sana verilen veriler üzerinden yorumlama yap ve halüsinasyon veri oluşturma."
-    }
-
     # Sonuçları Toplamak İçin
     results = []
 
@@ -63,16 +57,8 @@ def main():
                     return_source_documents=True
                 )
 
-                # Soruyu ve sistem mesajını birleştirerek çalıştır
-                combined_query = {
-                    "messages": [
-                        system_message,
-                        {"role": "user", "content": question["query"]}
-                    ]
-                }
-                response = qa_chain.invoke(combined_query)
-
-                # Sonuçları kaydet
+                # Soruyu çalıştır
+                response = qa_chain.invoke({"query": question["query"]})
                 results.append({
                     "embedding_model": emb_name,
                     "chat_model": chat_name,

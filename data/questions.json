@@ -1,32 +1,12 @@
-{
-    "system_message": {
-      "role": "system",
-      "content": "Sen bir öğrenci destek platformu için yapılan sohbet botusun. Sadece sana verilen veriler üzerinden yorumlama yap ve halüsinasyon veri oluşturma."
-    },
-    "queries": [
-      {
-        "role": "user",
-        "content": "Yaz okulu yapabilir miyim?"
-      },
-      {
-        "role": "user",
-        "content": "Yan dal yapmak için not ortalamam kaç olmalı?"
-      },
-      {
-        "role": "user",
-        "content": "Derslere devam zorunluluğu nedir?"
-      },
-      {
-        "role": "user",
-        "content": "Bir öğrencinin azami eğitim süresi ne kadar?"
-      },
-      {
-        "role": "user",
-        "content": "Disiplin cezası alan öğrenciler eğitim haklarını nasıl kullanabilir?"
-      },
-      {
-        "role": "user",
-        "content": "Tek ders sınavına kimler girebilir ve şartları nelerdir?"
-      }
-    ]
-  }
+[
+    {"query": "Yaz okulu yapabilir miyim?"},
+    {"query": "Yan dal yapmak için not ortalamam kaç olmalı?"},
+    {"query": "Mezuniyet için gereken GANO (Genel Ağırlıklı Not Ortalaması) kaç olmalıdır?"},
+    {"query": "Erasmus programına katılmak için kaç AKTS kredisi tamamlamam gerekiyor?"},
+    {"query": "Kayıt yenileme işlemleri ne zaman yapılmalıdır?"},
+    {"query": "Derslere devam zorunluluğu nedir?"},
+    {"query": "Bir öğrencinin azami eğitim süresi ne kadar?"},
+    {"query": "Hazırlık sınıfında başarısız olan öğrenciler için uygulama nedir?"},
+    {"query": "Disiplin cezası alan öğrenciler eğitim haklarını nasıl kullanabilir?"},
+    {"query": "Tek ders sınavına kimler girebilir ve şartları nelerdir?"}
+]
