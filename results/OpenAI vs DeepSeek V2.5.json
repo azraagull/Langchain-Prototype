@@ -1,0 +1,386 @@
+[{
+  "embedding_model": "bert",
+  "chat_model": "openai",
+  "question": "Yaz okulu yapabilir miyim?",
+  "response": {
+      "query": "Yaz okulu yapabilir miyim?",
+      "result": "Yaz okulu yapabilir miyim?",
+      "source_documents": [
+          {
+              "page_content": "ve sınava girmeyen öğrenciler, iki dönem süreli yabancı dil hazırlık sınıfına kaydolur. Yeterlik sınavı, birinci dönemin \nsonunda tekrarlanır. Başarılı öğrenciler, bağlı bulundukları bölümlere/programlara kayıt yapm a hakkı kazanır. Güz",
+              "metadata": {
+                  "page": 9,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "hazırlık sınıfına kayıt yaptırabilir. Öğrenciler, isteğe bağlı hazırlık sınıfında,  yıl sonu sınavında başarısız olsalar bile \nbağlı bulundukları ön lisans ve lisans programına devam edebilirler; ancak bu öğrenciler, verilmesi zorunlu olan yabancı \ndil derslerine devam ederler.",
+              "metadata": {
+                  "page": 9,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "başka yükseköğretim kurumlarında açılmış yaz okullarına başvurma şartları ve yaz okullarında alıp başarılı oldukları \nderslerle ilgili işlemler, ilgili yönerge çerçevesinde, bölüm/program ders yeter lik ve intibak komisyonlarınca \ngerçekleştirilir ve birim yönetim kurulunca karara bağlanır.",
+              "metadata": {
+                  "page": 6,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "openai",
+  "question": "KayÄ±t yenileme iÅŸlemleri ne zaman yapÄ±lmalÄ±dÄ±r?",
+  "response": {
+      "query": "KayÄ±t yenileme iÅŸlemleri ne zaman yapÄ±lmalÄ±dÄ±r?",
+      "result": "Kayıt yenileme işlemleri, her dönem veya yıl başında akademik takvimde belirlenen süre içinde yapılmalıdır.",
+      "source_documents": [
+          {
+              "page_content": "içinde ilgili birime yapılır. Süresi içinde yapılmayan müracaatlar işleme konulmaz. \nKayıt silme \nMADDE 32- (1) Yükseköğretim Kurumları Öğrenci Disiplin Yönetmeliği ve diğer ilgili mevzuat hükümlerine",
+              "metadata": {
+                  "page": 9,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "Ders kaydı, kayıt yenileme \nMADDE 10 - (1) Öğrenciler, her dönem/ yıl başında  akademik takvimde belirlenen süre içinde öğrenci bilgi \nsistemi üzerinden alacakları dersleri seçerler. Ders kaydı, danışman  onayı ile kesinleşir. Öğrenci, ders kaydının",
+              "metadata": {
+                  "page": 2,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "özel sınavlarla kabul edilen öğrencilerin kesin kayıtları, YÖK ve Üniversite tarafından belirlenen ilkeler çerçevesinde \nyapılır. \n(2) Zamanında başvurmayan ve istenen belgeleri tamamlamayanlar, kayıt hakkını kaybeder. \nDers kaydı, kayıt yenileme",
+              "metadata": {
+                  "page": 2,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "openai",
+  "question": "Derslere devam zorunluluÄŸu nedir?",
+  "response": {
+      "query": "Derslere devam zorunluluÄŸu nedir?",
+      "result": "Derslere devam zorunluluğu, öğrencinin belirlenen bir dersin toplam ders saatlerinin belirli bir oranında derse katılmasını gerektiren bir koşuldur. Bu metinde belirtildiği gibi, devam koşulu yerine getirilmemiş tekrar derslerine devam esas olarak belirtilmiştir. Yani, tekrar derslerine öğrencilerin devamlılığı zorunlu tutulmuştur. Devam koşulu olmayan derslerde ise öğrencilerin dönem içi değerlendirmelere katılması zorunlu kılınmıştır.",
+      "source_documents": [
+          {
+              "page_content": "(2) Devam koşulu yerine getirilmemiş tekrar derslerine devam esastır. Devam koşulu olmayan derslerde dönem \niçi değerlendirmelerine katılmak zorunludur. Derse deva m zorunluluğunu yerine getirmeyen öğrencilerin listesi;",
+              "metadata": {
+                  "page": 4,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "yapmadan, akademik takvimde belirtilen tek ders sınavlarına girebilir. Bu sınavlarda alınan not, ara sınav şartı \naranmaksızın en az CC ise öğrenci başarılı sayılır. Tek ders sınavına, dersi hiç almamış olan veya devam şartını yerine",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "(6) Öğrenciler, Üniversite tarafından planlanmış eğitimlerden alınmış olmak ve dersin dönemlik/yıllık saatinden \naz olmamak kaydıyla, ders adı ve içeriği uygun dersten/derslerden muaf sayılabilir.",
+              "metadata": {
+                  "page": 6,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "openai",
+  "question": "Bir Ã¶ÄŸrencinin azami eÄŸitim sÃ¼resi ne kadar?",
+  "response": {
+      "query": "Bir Ã¶ÄŸrencinin azami eÄŸitim sÃ¼resi ne kadar?",
+      "result": "Öğrencinin azami eğitim süresi, öğrencinin kayıtlı olduğu lisans programının süresine bağlıdır. İki yıllık programlar için dört yıl, dört yıllık lisans programları için yedi yıl, beş yıllık lisans programları için sekiz yıl ve altı yıllık lisans programları için dokuz yıldır.",
+      "source_documents": [
+          {
+              "page_content": "için dört yıl, dört yıllık lisans programları için yedi yıl, beş yıllık lisans programları için sekiz yıl ve altı yıllık lisa ns \nprogramları için dokuz  yıldır. Azami süreyi aşan öğrenciler; bu madde kapsamındaki hususlar çerçevesinde ders,",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "görevlendirilen öğretim elemanını, \ng) Ders yeterlik ve intibak komisyonu: Ders yeterlikleri ve intibaklarıyla ilgili uygulamaları yürütm ek üzere \nkurulan komisyonu, \nğ) Dönem: Eğitim-öğretim yılının her bir  yarı yılını, yıllık eğitim yapan birimlerde ise her bir eğitim -öğretim \nyılını,",
+              "metadata": {
+                  "page": 0,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "(4) Azami eğitim süresi sonunda ek sınavlar öncesinde başarısız olduğu ders sayısı beş veya beşten daha az olan \nöğrencilere; dönem esasına göre eğitim-öğretim yapılan birimlerde dört yarı yıl, yıl esasına göre eğitim-öğretim yapılan \nbirimlerde ise iki eğitim-öğretim yılı sınav hakkı verilir.",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "openai",
+  "question": "Disiplin cezasÄ± alan Ã¶ÄŸrenciler eÄŸitim haklarÄ±nÄ± nasÄ±l kullanabilir?",
+  "response": {
+      "query": "Disiplin cezasÄ± alan Ã¶ÄŸrenciler eÄŸitim haklarÄ±nÄ± nasÄ±l kullanabilir?",
+      "result": "Disiplin cezası alan öğrenciler, uygulama, staj ve sınavlara katılabilirler. Ancak, bu durumdaki öğrenciler diğer öğrencilik haklarından yararlanamazlar.",
+      "source_documents": [
+          {
+              "page_content": "Disiplin işleri \nMADDE 35 - (1) Öğrenim ve staj süresince öğrencilerin disiplinle ilgili iş ve işlemleri, Yükseköğretim \nKurumları Öğrenci Disiplin Yönetmeliği hükümlerine göre yürütülür. Üniversiteden uzaklaştırma cezası alan öğrenciler,",
+              "metadata": {
+                  "page": 10,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "ortalamasına dahil edilmez. Yaz okulundan ders alanlar, özel öğrenciler, ulusal ve/veya uluslararası değişim \nprogramlarına katılan öğrenciler için bu hüküm uygulanmaz. \n(8) Öğrenciler ders kaydı yapacakları dönemde öncelikle başarısız oldukları ve alamadıkları alt dönem derslerini",
+              "metadata": {
+                  "page": 2,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "uygulama, staj ve sınavlara katılabilir; ancak bunların dışındaki öğrencilik haklarından yararlanamazlar. \n(2) Azami eğitim süresi sonunda kayıtlı oldukları öğretim pro gramından mezun olabilmek için, son sınıf",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "openai",
+  "question": "Tek ders sÄ±navÄ±na kimler girebilir ve ÅŸartlarÄ± nelerdir?",
+  "response": {
+      "query": "Tek ders sÄ±navÄ±na kimler girebilir ve ÅŸartlarÄ± nelerdir?",
+      "result": "Tek ders sınavına, mezuniyetleri için tek dersi kalan öğrenciler girebilir. Dersin dönemlik ya da yıllık olmasına bakılmaksızın, akademik takvimde belirtilen tarihlerde Üniversitede açılacak tek ders sınavına girerler. Ayrıca, tek ders sınavlarına, dersi hiç almamış olan veya devam şartını yerine getirememiş olan öğrenciler de girebilir. Bu sınavlarda alınan not, ara sınav şartı aranmaksızın en az CC ise öğrenci başarılı sayılır.",
+      "source_documents": [
+          {
+              "page_content": "yapmadan, akademik takvimde belirtilen tek ders sınavlarına girebilir. Bu sınavlarda alınan not, ara sınav şartı \naranmaksızın en az CC ise öğrenci başarılı sayılır. Tek ders sınavına, dersi hiç almamış olan veya devam şartını yerine",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "görülen dersten/derslerden muaf tutulur.  İlgili faaliyetin disiplinler arası olması hâl inde, kimlerin muafiyetten \nyararlanacağı ve diğer hususlar, ilgili komisyon tarafından kararlaştırılır. \nSınavların yapılış şekli",
+              "metadata": {
+                  "page": 6,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "(6) Mezuniyetleri için tek dersi kalan öğrenciler, dersin dönemlik ya da yıllık olmasına bakılmaksızın akademik \ntakvimde belir tilen tarihlerde Üniversitede açılacak tek ders sınavına girerler. Öğrenci isteği hâlinde, ders kaydı",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+
+{
+  "embedding_model": "bert",
+  "chat_model": "deepseek",
+  "question": "Yaz okulu yapabilir miyim?",
+  "response": {
+      "query": "Yaz okulu yapabilir miyim?",
+      "result": "Evet, başka yükseköğretim kurumlarında açılmış yaz okullarına başvurabilirsiniz. Ancak başvuru şartları ve yaz okullarında alıp başarılı olduğunuz derslerle ilgili işlemler, ilgili yönerge çerçevesinde, bölüm/program ders yeterlik ve intibak komisyonlarınca gerçekleştirilir ve birim yönetim kurulunca karara bağlanır.",
+      "source_documents": [
+          {
+              "page_content": "ve sınava girmeyen öğrenciler, iki dönem süreli yabancı dil hazırlık sınıfına kaydolur. Yeterlik sınavı, birinci dönemin \nsonunda tekrarlanır. Başarılı öğrenciler, bağlı bulundukları bölümlere/programlara kayıt yapm a hakkı kazanır. Güz",
+              "metadata": {
+                  "page": 9,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "hazırlık sınıfına kayıt yaptırabilir. Öğrenciler, isteğe bağlı hazırlık sınıfında,  yıl sonu sınavında başarısız olsalar bile \nbağlı bulundukları ön lisans ve lisans programına devam edebilirler; ancak bu öğrenciler, verilmesi zorunlu olan yabancı \ndil derslerine devam ederler.",
+              "metadata": {
+                  "page": 9,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "başka yükseköğretim kurumlarında açılmış yaz okullarına başvurma şartları ve yaz okullarında alıp başarılı oldukları \nderslerle ilgili işlemler, ilgili yönerge çerçevesinde, bölüm/program ders yeter lik ve intibak komisyonlarınca \ngerçekleştirilir ve birim yönetim kurulunca karara bağlanır.",
+              "metadata": {
+                  "page": 6,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "deepseek",
+  "question": "KayÄ±t yenileme iÅŸlemleri ne zaman yapÄ±lmalÄ±dÄ±r?",
+  "response": {
+      "query": "KayÄ±t yenileme iÅŸlemleri ne zaman yapÄ±lmalÄ±dÄ±r?",
+      "result": "Kayıt yenileme işlemleri, her dönem/yıl başında akademik takvimde belirlenen süre içinde yapılmalıdır. Bu süre içinde yapılmayan müracaatlar işleme konulmaz.",
+      "source_documents": [
+          {
+              "page_content": "içinde ilgili birime yapılır. Süresi içinde yapılmayan müracaatlar işleme konulmaz. \nKayıt silme \nMADDE 32- (1) Yükseköğretim Kurumları Öğrenci Disiplin Yönetmeliği ve diğer ilgili mevzuat hükümlerine",
+              "metadata": {
+                  "page": 9,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "Ders kaydı, kayıt yenileme \nMADDE 10 - (1) Öğrenciler, her dönem/ yıl başında  akademik takvimde belirlenen süre içinde öğrenci bilgi \nsistemi üzerinden alacakları dersleri seçerler. Ders kaydı, danışman  onayı ile kesinleşir. Öğrenci, ders kaydının",
+              "metadata": {
+                  "page": 2,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "özel sınavlarla kabul edilen öğrencilerin kesin kayıtları, YÖK ve Üniversite tarafından belirlenen ilkeler çerçevesinde \nyapılır. \n(2) Zamanında başvurmayan ve istenen belgeleri tamamlamayanlar, kayıt hakkını kaybeder. \nDers kaydı, kayıt yenileme",
+              "metadata": {
+                  "page": 2,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "deepseek",
+  "question": "Derslere devam zorunluluÄŸu nedir?",
+  "response": {
+      "query": "Derslere devam zorunluluÄŸu nedir?",
+      "result": "Derslere devam zorunluluğu, öğrencilerin belirli bir dersi alırken, devam koşulu olarak belirlenen şartları yerine getirmesi gerektiği anlamına gelir. Devam koşulu yerine getirilmemiş olan derslerde, öğrencilerin dönem içi değerlendirmelerine katılmaları zorunludur. Derse devam zorunluluğunu yerine getirmeyen öğrenciler, akademik takvimde belirtilen tek ders sınavlarına girme hakkına sahiptir. Ancak, bu sınavlarda alınan not, ara sınav şartı aranmaksızın en az CC olmalıdır ki öğrenci başarılı sayılsın.",
+      "source_documents": [
+          {
+              "page_content": "(2) Devam koşulu yerine getirilmemiş tekrar derslerine devam esastır. Devam koşulu olmayan derslerde dönem \niçi değerlendirmelerine katılmak zorunludur. Derse deva m zorunluluğunu yerine getirmeyen öğrencilerin listesi;",
+              "metadata": {
+                  "page": 4,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "yapmadan, akademik takvimde belirtilen tek ders sınavlarına girebilir. Bu sınavlarda alınan not, ara sınav şartı \naranmaksızın en az CC ise öğrenci başarılı sayılır. Tek ders sınavına, dersi hiç almamış olan veya devam şartını yerine",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "(6) Öğrenciler, Üniversite tarafından planlanmış eğitimlerden alınmış olmak ve dersin dönemlik/yıllık saatinden \naz olmamak kaydıyla, ders adı ve içeriği uygun dersten/derslerden muaf sayılabilir.",
+              "metadata": {
+                  "page": 6,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "deepseek",
+  "question": "Bir Ã¶ÄŸrencinin azami eÄŸitim sÃ¼resi ne kadar?",
+  "response": {
+      "query": "Bir Ã¶ÄŸrencinin azami eÄŸitim sÃ¼resi ne kadar?",
+      "result": "Bir öğrencinin azami eğitim süresi, lisans programlarının süresine göre değişmektedir. Dört yıllık lisans programları için azami süre yedi yıl, beş yıllık lisans programları için sekiz yıl ve altı yıllık lisans programları için dokuz yıldır.",
+      "source_documents": [
+          {
+              "page_content": "için dört yıl, dört yıllık lisans programları için yedi yıl, beş yıllık lisans programları için sekiz yıl ve altı yıllık lisa ns \nprogramları için dokuz  yıldır. Azami süreyi aşan öğrenciler; bu madde kapsamındaki hususlar çerçevesinde ders,",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "görevlendirilen öğretim elemanını, \ng) Ders yeterlik ve intibak komisyonu: Ders yeterlikleri ve intibaklarıyla ilgili uygulamaları yürütm ek üzere \nkurulan komisyonu, \nğ) Dönem: Eğitim-öğretim yılının her bir  yarı yılını, yıllık eğitim yapan birimlerde ise her bir eğitim -öğretim \nyılını,",
+              "metadata": {
+                  "page": 0,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "(4) Azami eğitim süresi sonunda ek sınavlar öncesinde başarısız olduğu ders sayısı beş veya beşten daha az olan \nöğrencilere; dönem esasına göre eğitim-öğretim yapılan birimlerde dört yarı yıl, yıl esasına göre eğitim-öğretim yapılan \nbirimlerde ise iki eğitim-öğretim yılı sınav hakkı verilir.",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "deepseek",
+  "question": "Disiplin cezasÄ± alan Ã¶ÄŸrenciler eÄŸitim haklarÄ±nÄ± nasÄ±l kullanabilir?",
+  "response": {
+      "query": "Disiplin cezasÄ± alan Ã¶ÄŸrenciler eÄŸitim haklarÄ±nÄ± nasÄ±l kullanabilir?",
+      "result": "Disiplin cezası alan öğrenciler, üniversiteden uzaklaştırma cezası aldıkları süre boyunca eğitim haklarından yararlanamazlar. Bu süre zarfında ders kaydı yapamazlar, derslere, uygulamalara, stajlara ve sınavlara katılamazlar. Ancak, üniversiteden uzaklaştırma cezası süresi sona erdikten sonra, başarısız oldukları ve alamadıkları alt dönem derslerini alabilirler.",
+      "source_documents": [
+          {
+              "page_content": "Disiplin işleri \nMADDE 35 - (1) Öğrenim ve staj süresince öğrencilerin disiplinle ilgili iş ve işlemleri, Yükseköğretim \nKurumları Öğrenci Disiplin Yönetmeliği hükümlerine göre yürütülür. Üniversiteden uzaklaştırma cezası alan öğrenciler,",
+              "metadata": {
+                  "page": 10,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "ortalamasına dahil edilmez. Yaz okulundan ders alanlar, özel öğrenciler, ulusal ve/veya uluslararası değişim \nprogramlarına katılan öğrenciler için bu hüküm uygulanmaz. \n(8) Öğrenciler ders kaydı yapacakları dönemde öncelikle başarısız oldukları ve alamadıkları alt dönem derslerini",
+              "metadata": {
+                  "page": 2,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "uygulama, staj ve sınavlara katılabilir; ancak bunların dışındaki öğrencilik haklarından yararlanamazlar. \n(2) Azami eğitim süresi sonunda kayıtlı oldukları öğretim pro gramından mezun olabilmek için, son sınıf",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+},
+{
+  "embedding_model": "bert",
+  "chat_model": "deepseek",
+  "question": "Tek ders sÄ±navÄ±na kimler girebilir ve ÅŸartlarÄ± nelerdir?",
+  "response": {
+      "query": "Tek ders sÄ±navÄ±na kimler girebilir ve ÅŸartlarÄ± nelerdir?",
+      "result": "Tek ders sınavına, mezuniyetleri için tek dersi kalan öğrenciler girebilir. Bu sınavlarda alınan not, ara sınav şartı aranmaksızın en az CC ise öğrenci başarılı sayılır. Dersi hiç almamış olan veya devam şartını yerine getiremeyen öğrenciler bu sınavlara giremez. İlgili faaliyetin disiplinler arası olması durumunda, kimlerin muafiyetten yararlanacağı ve diğer hususlar, ilgili komisyon tarafından kararlaştırılır.",
+      "source_documents": [
+          {
+              "page_content": "yapmadan, akademik takvimde belirtilen tek ders sınavlarına girebilir. Bu sınavlarda alınan not, ara sınav şartı \naranmaksızın en az CC ise öğrenci başarılı sayılır. Tek ders sınavına, dersi hiç almamış olan veya devam şartını yerine",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "görülen dersten/derslerden muaf tutulur.  İlgili faaliyetin disiplinler arası olması hâl inde, kimlerin muafiyetten \nyararlanacağı ve diğer hususlar, ilgili komisyon tarafından kararlaştırılır. \nSınavların yapılış şekli",
+              "metadata": {
+                  "page": 6,
+                  "source": "data/yonetmelik.pdf"
+              }
+          },
+          {
+              "page_content": "(6) Mezuniyetleri için tek dersi kalan öğrenciler, dersin dönemlik ya da yıllık olmasına bakılmaksızın akademik \ntakvimde belir tilen tarihlerde Üniversitede açılacak tek ders sınavına girerler. Öğrenci isteği hâlinde, ders kaydı",
+              "metadata": {
+                  "page": 1,
+                  "source": "data/yonetmelik.pdf"
+              }
+          }
+      ]
+  }
+}
+]
