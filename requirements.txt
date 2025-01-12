@@ -8,3 +8,10 @@ langchain_openai
 langchain_text_splitters
 python-dotenv
 transformers
+lxml
+pypdf
+pandas
+csv2pdf
+google-generativeai
+azure-ai-formrecognizer
+dataclasses

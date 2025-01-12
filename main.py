@@ -29,7 +29,7 @@ chat_models = {
 
 def main():
     # PDF ve Soru Yükleme
-    pdf_path = "data/yonetmelik.pdf"
+    pdf_path = "guncellenmis_dosya.pdf"
     pdf_documents = load_pdf(pdf_path)
 
     questions = load_questions("data/questions.json")
