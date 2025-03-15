@@ -2,30 +2,30 @@
     {
         "embedding_model": "bert",
         "chat_model": "deepseek",
-        "question": "Veri yapÄ±larÄ± sÄ±navÄ± ne zaman nerede olacak?",
+        "question": "Yaz okulu ÅŸartlarÄ± nelerdir?",
         "response": {
-            "query": "Veri yapÄ±larÄ± sÄ±navÄ± ne zaman nerede olacak?",
-            "result": "Veri Yapıları sınavı 12 Aralık 2024 Perşembe günü saat 10:00-12:00 arasında Seminer Salonu'nda yapılacak.",
+            "query": "Yaz okulu ÅŸartlarÄ± nelerdir?",
+            "result": "Yaz okulu şartları, ilgili yükseköğretim kurumunun yönergesi çerçevesinde belirlenir. Başka yükseköğretim kurumlarında açılmış yaz okullarına başvurma şartları ve yaz okullarında alınıp başarılı olunan derslerle ilgili işlemler, bölüm/program ders yeterlik ve intibak komisyonlarınca gerçekleştirilir ve birim yönetim kurulunca karara bağlanır. Bu süreç, ilgili yönergeye uygun olarak yürütülür.\n\nDetaylı bilgi için ilgili üniversitenin yaz okulu yönergesine veya öğrenci işleri birimine başvurmanız önerilir.",
             "source_documents": [
                 {
-                    "page_content": "Tarih GÃ¼n Saat SÄ±nav Yer\n09.12.2024 Pazartesi 10:00-12:00 Fizik I (TBD I) Z-11\n12.12.2024 PerÅŸembe 10:00-12:00 BII.MÃ¼h.GiriÅŸ Seminer Salonu\n12.12.2024 PerÅŸembe 10:00-12:00 Veri YapÄ±larÄ± Seminer Salonu\n12.12.2024 PerÅŸembe 13:30-15:00 Diferansiyel Denklemler Seminer Salonu",
+                    "page_content": "başka yükseköğretim kurumlarında açılmış yaz okullarına başvurma şartları ve yaz okullarında alıp başarılı oldukları \nderslerle ilgili işlemler, ilgili yönerge çerçevesinde, bölüm/program ders yeter lik ve intibak komisyonlarınca \ngerçekleştirilir ve birim yönetim kurulunca karara bağlanır.",
                     "metadata": {
-                        "page": 0,
-                        "source": "guncellenmis_dosya.pdf"
+                        "page": 6,
+                        "source": "data/yonetmelik.pdf"
                     }
                 },
                 {
-                    "page_content": "13.12.2024 Cuma 10:00-12:00 AyrÄ±k Matematik Seminer Salonu\n13.12.2024 Cuma 10:00-12:00 Java-I Seminer Salonu\n13.12.2024 Cuma 13:30-15:00 SayÄ±sal Denetim I Seminer Salonu\n13.12.2024 Cuma 13:30-15:00 Kriptografiye GiriÅŸ Seminer Salonu",
+                    "page_content": "başka yükseköğretim kurumlarında açılmış yaz okullarına başvurma şartları ve yaz okullarında alıp başarılı oldukları \nderslerle ilgili işlemler, ilgili yönerge çerçevesinde, bölüm/program ders yeter lik ve intibak komisyonlarınca \ngerçekleştirilir ve birim yönetim kurulunca karara bağlanır.",
                     "metadata": {
-                        "page": 0,
-                        "source": "guncellenmis_dosya.pdf"
+                        "page": 6,
+                        "source": "data/yonetmelik.pdf"
                     }
                 },
                 {
-                    "page_content": "13.12.2024 Cuma 13:30-15:00 YazÄ±lÄ±m MÃ¼hendisliÄŸi Seminer Salonu\n13.12.2024 Cuma 15:00-17:00 Web Programlama Lab. Seminer Salonu\n13.12.2024 Cuma 15:00-17:00 Proje TasarÄ±mÄ± Seminer Salonu",
+                    "page_content": "ö) Yaz dönemi: Ondokuz Mayıs Üniversitesinde ön lisans, lisans ve lisansüstü programların bir eğitim-öğretim \nyılının güz ve bahar dönemleri dışında kalan ve yaz aylarında uygulanan eğitim-öğretim dönemini, \np) YÖK: Yükseköğretim Kurulunu, \nifade eder.",
                     "metadata": {
                         "page": 0,
-                        "source": "guncellenmis_dosya.pdf"
+                        "source": "data/yonetmelik.pdf"
                     }
                 }
             ]
