@@ -1,11 +1,10 @@
-# app.py
 from fastapi import FastAPI, Request, HTTPException
 import httpx
 from main import setup_models  # main.py'den setup_models fonksiyonunu içe aktar
 from config import TELEGRAM_BOT_TOKEN
 from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
 
-# FastAPI uygulaması
 app = FastAPI()
 
 
@@ -23,35 +22,49 @@ async def webhook(request: Request):
     message = data.get("message", {})
     chat_id = message.get("chat", {}).get("id")
     text = message.get("text")
-    pdf = message.get("document")
-    
+    pdf = message.get("document")  # TODO: PDF ve görsel dosyalar için destek sağla.
+
     # Hata döndürmek yerine kullanıcıyı bilgilendir!
-    if not chat_id or not text:
+    if not chat_id or not text:  # Text kontrolü önemli.
         async with httpx.AsyncClient() as client:
             await client.post(
                 f"{TELEGRAM_API_URL}/sendMessage",
-                json={"chat_id": chat_id, "text": "Üzgünüm şu anda sadece metin mesajlarına yanıt verebilirim."}
+                json={"chat_id": chat_id, "text": "Üzgünüm, şu anda sadece metin mesajlarına yanıt verebilirim."}
             )
         return {"status": "ok"}
 
 
-    # LLM ve RAG modeli ile cevap oluştur
+    # Sistem mesajını içeren bir prompt şablonu oluştur
+    prompt_template = """
+        Sen Ondokuz Mayıs Üniversitesi adına çalışan yardımcı bir sohbet robotusun. 
+        İsmin OkAI. Sana sorulan sorulara doğru, hızlı ve dostane bir şekilde cevap ver. 
+        Eğer doğru cevabı bilmiyorsan cevabı bilmediğini kullanıcıya bildir.
+    {context}
+
+    Soru: {question}
+    Cevap:"""
+
+    PROMPT = PromptTemplate(
+        template=prompt_template, input_variables=["context", "question"]
+    )
+
+    # RetrievalQA zincirini oluştururken, chain_type_kwargs ile prompt'u özelleştir.
     qa_chain = RetrievalQA.from_chain_type(
         llm=chat_model,
         retriever=retriever,
-        return_source_documents=True
+        return_source_documents=True,
+        chain_type_kwargs={"prompt": PROMPT},  # System mesajını LLM'e ilet.
     )
-    
-    #Deneysel
-    if chat_id or text:
-        #LLM'e soru sor ve cevabı kullanıcıya ilet.
-        response = qa_chain.invoke({"query": text})
-        response_text = response["result"]
 
-        # Telegram'a cevap gönder
-        async with httpx.AsyncClient() as client:
-            await client.post(
-                f"{TELEGRAM_API_URL}/sendMessage",
-                json={"chat_id": chat_id, "text": response_text}
-            )
+
+    # LLM'e soru sor ve cevabı kullanıcıya ilet.
+    response = qa_chain.invoke({"query": text})
+    response_text = response["result"]
+
+    # Telegram'a cevap gönder
+    async with httpx.AsyncClient() as client:
+        await client.post(
+            f"{TELEGRAM_API_URL}/sendMessage",
+            json={"chat_id": chat_id, "text": response_text}
+        )
     return {"status": "ok"}
