@@ -10,3 +10,4 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OLLAMA_API_BASE_URL = "http://localhost:11434"
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 TELEGRAM_BOT_TOKEN= os.getenv("TELEGRAM_BOT_TOKEN")
+UPLOAD_DIR_TG = "./uploads/Telegram"
