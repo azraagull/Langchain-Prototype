@@ -131,6 +131,6 @@ async def webhook(request: Request):
     async with httpx.AsyncClient() as client:
         await client.post(
             f"{TELEGRAM_API_URL}/sendMessage",
-            json={"chat_id": chat_id, "text": f"{response_text} \ {response['source_documents']}"}
+            json={"chat_id": chat_id, "text": f"{response_text}\n{response['source_documents']}"}
         )
     return {"status": "ok"}
