@@ -17,3 +17,4 @@ azure-ai-formrecognizer
 dataclasses
 fastapi==0.115.11
 uvicorn==0.34.0
+BeautifulSoup4

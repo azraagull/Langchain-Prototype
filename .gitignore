@@ -2,3 +2,5 @@
 /*_db
 __pycache*
 virtualenv
+/assets
+*.log
