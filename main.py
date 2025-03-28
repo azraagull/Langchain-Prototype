@@ -27,47 +27,54 @@ chat_models = {
     # "huggingface": huggingface_chat.get_chat_model,
 }
 
-def main():
+def setup_models():
+    """
+    Retriever ve chat modelini başlatır.
+    """
     # PDF ve Soru Yükleme
-    pdf_path = "guncellenmis_dosya.pdf"
+    pdf_path = "data/yonetmelik.pdf"
     pdf_documents = load_pdf(pdf_path)
 
+    # Retriever'ı kur
+    retriever = setup_retriever(
+        pdf_documents,
+        embedding_models["bert"](),
+        db_name="chroma_bert"
+    )
+
+    # Chat modelini yükle
+    chat_model = chat_models["deepseek"]()
+
+    return retriever, chat_model
+
+def main():
+    # Retriever ve chat modelini başlat
+    retriever, chat_model = setup_models()
+
+    # Soruları yükle
     questions = load_questions("data/questions.json")
 
     # Sonuçları Toplamak İçin
     results = []
 
-    # Her embedding modeli için ayrı koleksiyon
-    for emb_name, emb_model_func in embedding_models.items():
-        embedding_model = emb_model_func()
-        retriever = setup_retriever(
-            pdf_documents,
-            embedding_model,
-            db_name=f"chroma_{emb_name}"
+    for question in questions:
+        # RetrievalQA
+        qa_chain = RetrievalQA.from_chain_type(
+            llm=chat_model,
+            retriever=retriever,
+            return_source_documents=True
         )
 
-        for chat_name, chat_model_func in chat_models.items():
-            chat_model = chat_model_func()
-
-            for question in questions:
-                # RetrievalQA
-                qa_chain = RetrievalQA.from_chain_type(
-                    llm=chat_model,
-                    retriever=retriever,
-                    return_source_documents=True
-                )
-
-                # Soruyu çalıştır
-                response = qa_chain.invoke({"query": question["query"]})
-                results.append({
-                    "embedding_model": emb_name,
-                    "chat_model": chat_name,
-                    "question": question["query"],
-                    "response": response,
-                })
+        # Soruyu çalıştır
+        response = qa_chain.invoke({"query": question["query"]})
+        results.append({
+            "embedding_model": "bert",
+            "chat_model": "deepseek",
+            "question": question["query"],
+            "response": response,
+        })
 
     # Sonuçları Kaydet
     evaluate_responses(results, "results/output.json")
-
 if __name__ == "__main__":
     main()
