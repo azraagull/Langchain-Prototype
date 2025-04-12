@@ -4,3 +4,5 @@ __pycache*
 virtualenv
 /assets
 *.log
+*.pdf
+/scraper/assets/*
